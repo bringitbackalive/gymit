@@ -1,0 +1,377 @@
+footer {
+    background: #aaa;
+    color: white;
+}
+
+body {
+
+    background-color: rgb(101, 93, 212);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+
+}
+
+h3 {
+    color: white;
+}
+
+.edit {
+    float: right;
+    padding-right: 10px;
+}
+
+.navbar .navbar-brand {
+    color: rgb(218, 183, 97);
+    font-family: "Trebuchet MS", Bold;
+    font-weight: 500;
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+
+.nav-item {
+
+    /*border: 1px solid red;*/
+    width: 120px;
+    margin: 5px 60px 0px 60px;
+    padding: 5px 5px 5px 5px;
+}
+
+.profileClass {
+    /*border:1px solid blue !important;*/
+    width: 60px;
+}
+
+.homeClass {
+    /*border:1px solid blue !important;*/
+    width: 60px;
+}
+
+.AboutClass {
+    /*border:1px solid blue !important;*/
+    width: 60px;
+}
+
+.search {
+    /*border:1px solid blue !important;*/
+    width: 290px;
+    margin-top: 10px;
+    margin: 0 0 2cm 23cm;
+}
+
+.logoutClass {
+    border: 1px solid blue !important;
+    width: 90px;
+    margin-top: 2px;
+}
+
+.row {
+    margin: 1cm 1cm 1cm 1cm;
+}
+
+form .search-data {
+    top: 50px;
+    width: 70%;
+    color: black;
+    font-family: "Montserrat", Bold;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: goldenrod;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 500px;
+}
+
+.modal {
+    color: black;
+}
+
+#homeText {
+    position: absolute;
+    color: goldenrod;
+    text-align: center;
+    top: 30%;
+    left: 36%;
+    letter-spacing: 2px;
+}
+
+.restaurantButton {
+    background: none;
+    position: relative;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: goldenrod;
+    border: 1px solid #eec304;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 2000;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#logout {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    color: goldenrod;
+    height: 40px;
+}
+
+#home {
+    color: gold;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: goldenrod;
+}
+
+section .loginImg {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+body.loginClass {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section .loginImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .contentBox .formBox {
+    width: 25%;
+}
+
+section .contentBox .formBox h2 {
+    color: rgb(221, 236, 240);
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 160px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentBox .formBox .inputBox {
+    margin-bottom: 50px;
+}
+
+section .contentBox .formBox .inputBox span {
+    margin-bottom: 5px;
+    display: inline-block;
+    color: rgb(221, 236, 240);
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+section .contentBox .formBox .inputBox input {
+    width: 150%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 650;
+    border: 1px solid #607d8b;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(66, 175, 202);
+    background: white;
+    border-radius: 30px;
+}
+
+section .contentBox .formBox .inputBox input[type="submit"] {
+    background: rgb(165, 214, 228);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section .contentBox .formBox .inputBox input[type="submit"]:hover {
+    background: rgb(182, 131, 56);
+}
+
+section .contentBox .formBox .inputBox p {
+    color: rgb(165, 214, 228);
+    ;
+}
+
+section .contentBox .formBox .inputBox p a {
+    color: rgb(165, 214, 228);
+    ;
+}
+
+section .contentBox .formBox .belowBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contentBox .formBox .belowBar li {
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 80%;
+    margin: 0px 0px 0 70px;
+    cursor: pointer;
+}
+
+section .homeTxt {
+    color: rgb(221, 236, 240);
+    font-family: "Trebuchet MS", Bold;
+    font-weight: 500;
+    letter-spacing: 8px;
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+
+body.registerClass {
+    background: none;
+    background-image: url(/public/images/barbell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: black;
+}
+
+form {
+    color: goldenrod;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: rgb(255, 248, 182);
+    outline: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px dashed goldenrod;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: goldenrod;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: wheat;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: black;
+    text-align: center;
+}
+
+.filter {
+    text-align: top right;
+    margin: 0 0 0 0;
+}
+
+.updateUserInfo {
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+.updateUserInfo #passInfo #emailInfo {
+    margin-top: 150px;
+}
+
+.updateUser {
+    margin-top: 20px !important;
+    width: 40% !important;
+    display: flex !important;
+}
+
+
+
+
+
+
+
+
+
